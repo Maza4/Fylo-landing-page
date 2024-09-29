@@ -1,10 +1,21 @@
 /* Mobile Design */
 @media only screen and (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+
   nav {
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    height: 15vh;
+    /* height: 15vh; */
     margin-bottom: 30px;
+    gap: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .nav-links {
+    font-size: 10px;
+    gap: 0.8rem;
   }
 
   .sect1 {
@@ -91,7 +102,7 @@
     justify-content: center;
 
     & img {
-      max-width: 100%;
+      /* max-width: 100%; */
       max-height: 100%;
       object-fit: cover;
     }
@@ -112,7 +123,6 @@
   .avatar-info {
     display: flex;
     gap: 5px;
-    position: relative;
 
     &.avatar-info img {
       height: 50px;
