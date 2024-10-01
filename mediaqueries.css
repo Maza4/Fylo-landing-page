@@ -4,18 +4,24 @@
     overflow-x: hidden;
   }
 
-  nav {
-    /* justify-content: space-between; */
+  .nav-content {
+    gap: 16px;
     align-items: center;
-    /* height: 15vh; */
-    margin-bottom: 30px;
-    gap: 0.8rem;
-    font-size: 0.8rem;
   }
 
-  .nav-links {
-    font-size: 10px;
-    gap: 0.8rem;
+  .nav-nd-sect {
+    margin: 0 0.9rem;
+  }
+
+  #logo {
+    width: 100px;
+  }
+
+  .nav-links ul {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    gap: 1rem;
   }
 
   .sect1 {
